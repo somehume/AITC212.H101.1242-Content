@@ -1,0 +1,1 @@
+docker run -d -p 8080:80 --name nginx-1 -v /root/docker/nginx/html:/usr/share/nginx/html nginx
